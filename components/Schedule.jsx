@@ -1,10 +1,48 @@
 import React from 'react'
+import Image from "next/image";
+import {FaRegClock} from "react-icons/fa6";
 
 export const Schedule = () => {
     return (
-        <section id='menu'>
+        <section className='pt-20 pb-16 bg-sch1 bg-contain bg-left-top sm:bg-repeat-round ph:bg-no-repeat' id='menu'>
             <div className='container'>
-                Rest/Cafe
+                <div className='grid grid-cols-2'>
+                    <div className='justify-between flex flex-col pb-12'>
+                        <Image src='/assets/schedule/Sch1.jpg' alt='qwe' width={650} height={500}/>
+                        <div className='lowercase '>
+                            <h6 className=''>work time</h6>
+                            <h3 className='pb-6'>CAFÉ</h3>
+                            <div className='flex items-center'>
+                                <FaRegClock className='bg-green mr-3 text-[50px] p-3 fill-white text-white'/>
+                                <h4 className='font-bold text-[22px] leading-[22px]'>Breakfast & Lunch<span className='mr-1.5'>:</span></h4>
+                                <p className='text-[22px] leading-[22px]'>
+                                    Every day from 8AM<span className='px-1'>-</span>3PM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-col justify-between pt-12'>
+                        <div className='lowercase '>
+                            <h6 className=''>work time</h6>
+                            <h3 className=''>RESTAURANT</h3>
+                            <div className='flex items-center py-6'>
+                                <FaRegClock className='bg-green mr-3 text-[50px] p-3 fill-white text-white'/>
+                                <h4 className='font-bold text-[22px] leading-[22px]'>friday<span className='mr-1.5'>:</span></h4>
+                                <p className='text-[22px] leading-[22px]'>
+                                    8AM<span className='px-1'>-</span>11:30AM
+                                </p>
+                            </div>
+                            <div className='flex items-center'>
+                                <FaRegClock className='bg-green mr-3 text-[50px] p-3 fill-white text-white'/>
+                                <h4 className='font-bold text-[22px] leading-[22px]'>Saturday & Sunday<span className='mr-1.5'>:</span></h4>
+                                <p className='text-[22px] leading-[22px]'>
+                                    9AM<span className='px-1'>-</span>2PM
+                                </p>
+                            </div>
+                        </div>
+                        <Image src='/assets/schedule/Sch2.jpg' alt='qwe' width={650} height={500} className='pt-20'/>
+                    </div>
+                </div>
             </div>
         </section>
     )

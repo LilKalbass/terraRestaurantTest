@@ -1,4 +1,4 @@
-import { Lora, Arsenal } from "next/font/google";
+import { Lora, Arsenal, Montez } from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/Header";
 import {Footer} from "@/components/Footer";
@@ -11,6 +11,10 @@ const arsenal = Arsenal({
   subsets: ["latin"],
   weight: ['400', '700'],
   variable: '--font-arsenal' });
+const montez = Montez({
+    subsets: ["latin"],
+    weight: ['400'],
+    variable: '--font-montez' });
 
 export const metadata = {
   title: "Terra Restaurant",
@@ -19,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${lora.variable} ${arsenal.variable}`}>
+    <html lang="en" className={`${lora.variable} ${arsenal.variable} ${montez.variable}`}>
       <body>
       <div>
         <Header/>

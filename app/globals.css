@@ -6,7 +6,28 @@
     *{
         @apply box-border font-arsenal text-black
     }
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5{
         @apply font-lora
+    }
+    h3{
+        @apply text-[60px] leading-[60px] text-black
+    }
+    h6{
+        @apply font-montez text-light_green text-[22px] leading-[22px] pb-2
+    }
+    li, h5{
+        @apply text-white sm:text-[20px] leading-[26px]
+    }
+    h5{
+        @apply font-bold uppercase ph:text-[16px] ph:leading-[20px]
+    }
+    ul{
+        @apply flex flex-col gap-y-2 sm:pt-5 ph:pt-[10px]
+    }
+    li{
+        @apply hover:underline hover:decoration-white lowercase
+    }
+    input{
+        @apply bg-white/0 border-b-[1px] border-border_white pb-4 text-white  placeholder:text-white font-arsenal placeholder:font-arsenal
     }
 }
