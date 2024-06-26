@@ -24,17 +24,17 @@ export const Footer = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className = 'grid sm:grid-rows-1 sm:grid-cols-4  ph:grid-cols-2 ph:grid-rows-2 xl:gap-x-20 ph:gap-x-14'>
+                    <nav className = 'grid sm:grid-rows-1 sm:grid-cols-4  ph:grid-cols-2 ph:grid-rows-2 xl:gap-x-20 ph:gap-x-14'>
                         <div className='sm:max-w-[160px] ph:max-w-[126px]'>
                             <h5>sitemap</h5>
                             <ul>
                                 <li>
-                                    <Link href = '/'>
+                                    <Link href = '#menu'>
                                         menu
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href = '/'>
+                                    <Link href = '#book'>
                                         book now
                                     </Link>
                                 </li>
@@ -81,7 +81,7 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </nav>
                 </div>
                 <div className='flex justify-center gap-x-5 xl:hidden sm:pt-[38px] ph:pt-[30px]'>
                     <Button variant='default' size='icon'>

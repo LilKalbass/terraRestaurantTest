@@ -4,7 +4,7 @@
 
 @layer base {
     *{
-        @apply box-border font-arsenal text-black
+        @apply box-border font-arsenal text-black scroll-smooth
     }
     h1, h2, h3, h4, h5{
         @apply font-lora
@@ -29,5 +29,8 @@
     }
     input{
         @apply bg-white/0 border-b-[1px] border-border_white pb-4 text-white  placeholder:text-white font-arsenal placeholder:font-arsenal
+    }
+    a{
+        @apply hover:underline hover:decoration-white
     }
 }

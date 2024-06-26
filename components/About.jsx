@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const About = () => {
     return (
-        <section className='bg-about bg-no-repeat bg-left-bottom relative  pt-[100px]'>
+        <section className='bg-about bg-no-repeat bg-left-bottom relative  pt-[100px]' id='about'>
             <div className='container'>
                 <h3>our history</h3>
                 <Image src='/assets/about/webp/AboutBig70.webp' alt='about_big' width={660} height={600} className='absolute mt-10'/>

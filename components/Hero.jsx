@@ -2,6 +2,8 @@
 
 import React from 'react'
 import {Button} from "@/components/ui/button";
+import Link from "next/link";
+
 
 export const Hero = () => {
     return (
@@ -15,7 +17,7 @@ export const Hero = () => {
 
                 </div>
                 <div className='flex items-center gap-x-8 pt-10'>
-                    <Button variant='outline' size='round' className='uppercase'>About <br/> us</Button>
+                    <Link href='#about'><Button variant='outline' size='round' className='uppercase'>About <br/> us</Button></Link>
                     <p className='text-white max-w-[620px] text-[22px] leading-[28px]'>We have beautiful and fun things coming up on the patio this summer. Now it only needs to… be summer. To be continued!</p>
                 </div>
             </div>

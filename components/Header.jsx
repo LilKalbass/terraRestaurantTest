@@ -39,13 +39,13 @@ export const Header = () => {
                         <Image src='/assets/logo/webp/Logo70.webp' alt='logo_img' width={147} height={38}/>
                     </Link>
                     <nav className='text-white text-xl flex gap-x-[50px] items-center'>
-                        <Link href='/' className='hover:underline hover:decoration-white'>
+                        <Link href='#menu' >
                             menu
                         </Link>
-                        <Link href='/' className=' hover:underline hover:decoration-white'>
+                        <Link href='#book'>
                             book now
                         </Link>
-                        <Link href='/' className=' hover:underline hover:decoration-white'>
+                        <Link href='#gallery'>
                             gift cards
                         </Link>
                         <Select>
@@ -57,7 +57,6 @@ export const Header = () => {
                                 <SelectItem  value = 'qwe'><Image placeholder='empty'  src='/assets/webp/FrenchIcon70.webp' alt='qwe' width={40} height={26}/></SelectItem>
                             </SelectContent>
                         </Select>
-
                     </nav>
                 </div>
             </div>
