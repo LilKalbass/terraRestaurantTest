@@ -26,8 +26,8 @@ export const Footer = () => {
                     </div>
                     <div className = 'grid sm:grid-rows-1 sm:grid-cols-4  ph:grid-cols-2 ph:grid-rows-2 xl:gap-x-20 ph:gap-x-14'>
                         <div className='sm:max-w-[160px] ph:max-w-[126px]'>
-                            <h5 className = ''>sitemap</h5>
-                            <ul className = ''>
+                            <h5>sitemap</h5>
+                            <ul>
                                 <li>
                                     <Link href = '/'>
                                         menu
@@ -41,8 +41,8 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div className='sm:max-w-[160px] ph:max-w-[126px]'>
-                            <h5 className = ''>adress</h5>
-                            <ul className = ''>
+                            <h5>adress</h5>
+                            <ul>
                                 <li>
                                     <Link href = '/'>
                                         125 water streetst. john’s, nl a1c 5x4
@@ -52,8 +52,8 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div className='sm:max-w-[160px] ph:max-w-[126px]'>
-                            <h5 className = ''>contacts</h5>
-                            <ul className = ''>
+                            <h5>contacts</h5>
+                            <ul>
                                 <li>
                                     <Link href = '/'>
                                         +7 09 383 2136
@@ -67,8 +67,8 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div className='sm:max-w-[160px] ph:max-w-[126px]'>
-                            <h5 className = ''>other</h5>
-                            <ul className = ''>
+                            <h5>other</h5>
+                            <ul>
                                 <li>
                                     <Link href = '/'>
                                         privacy

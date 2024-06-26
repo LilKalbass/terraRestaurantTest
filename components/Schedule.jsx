@@ -10,7 +10,7 @@ export const Schedule = () => {
                     <div className='justify-between flex flex-col pb-12'>
                         <Image src='/assets/schedule/webp/Sch170.webp' alt='qwe' width={650} height={500}/>
                         <div className='lowercase '>
-                            <h6 className=''>work time</h6>
+                            <h6>work time</h6>
                             <h3 className='pb-6'>CAFÉ</h3>
                             <div className='flex items-center'>
                                 <FaRegClock className='bg-green mr-3 text-[50px] p-3 fill-white text-white'/>
@@ -23,8 +23,8 @@ export const Schedule = () => {
                     </div>
                     <div className='flex flex-col justify-between pt-12'>
                         <div className='lowercase '>
-                            <h6 className=''>work time</h6>
-                            <h3 className=''>RESTAURANT</h3>
+                            <h6>work time</h6>
+                            <h3>RESTAURANT</h3>
                             <div className='flex items-center py-6'>
                                 <FaRegClock className='bg-green mr-3 text-[50px] p-3 fill-white text-white'/>
                                 <h4 className='font-bold text-[22px] leading-[22px]'>friday<span className='mr-1.5'>:</span></h4>

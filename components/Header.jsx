@@ -34,7 +34,7 @@ export const Header = () => {
         <header className='top-0 left-0 right-0 bg-none absolute z-20 transition-all'>
             <div className='container'>
                 <div className= 'flex items-center justify-between py-4 border-b-[1px] border-border_white'>
-                    <Link href='/'>
+                    <Link href='/' className='cursor-pointer'>
                         {/*<Image src='/assets/logo/LogoH.svg' alt='logo_img' width={147} height={38}/>*/}
                         <Image src='/assets/logo/webp/Logo70.webp' alt='logo_img' width={147} height={38}/>
                     </Link>
@@ -49,12 +49,12 @@ export const Header = () => {
                             gift cards
                         </Link>
                         <Select>
-                            <SelectTrigger  className="w-[80px] h-[62px] border-none ">
-                                <SelectValue className='' placeholder={<Image src='/assets/EngIcon.png' alt='qwe' width={40} height={26}/>}/>
+                            <SelectTrigger  className="w-[80px] h-[62px] border-none flex justify-end p-0">
+                                <SelectValue placeholder={<Image src='/assets/EngIcon.png' alt='qwe' width={40} height={26}/>}/>
                             </SelectTrigger>
                             <SelectContent className= 'shadow-none'>
-                                <SelectItem  value = 'we'><Image src='/assets/EngIcon.png' alt='qwe' width={40} height={26}/></SelectItem>
-                                <SelectItem value = 'qwe'><Image src='/assets/FrenchIcon.png' alt='qwe' width={40} height={26}/></SelectItem>
+                                <SelectItem value = 'we'><Image placeholder='empty' src='/assets/webp/EngIcon70.webp' alt='qwe' width={40} height={26}/></SelectItem>
+                                <SelectItem  value = 'qwe'><Image placeholder='empty'  src='/assets/webp/FrenchIcon70.webp' alt='qwe' width={40} height={26}/></SelectItem>
                             </SelectContent>
                         </Select>
 

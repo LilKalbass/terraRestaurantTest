@@ -6,7 +6,7 @@ export const About = () => {
     return (
         <section className='bg-about bg-no-repeat bg-left-bottom relative  pt-[100px]'>
             <div className='container'>
-                <h3 className= ''>our history</h3>
+                <h3>our history</h3>
                 <Image src='/assets/about/webp/AboutBig70.webp' alt='about_big' width={660} height={600} className='absolute mt-10'/>
                 <div className='flex flex-col items-end gap-y-10'>
                     <h6 className=''>We could not be prouder to be.</h6>
