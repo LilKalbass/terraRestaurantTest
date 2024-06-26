@@ -7,7 +7,7 @@ export const About = () => {
         <section className='bg-about bg-no-repeat bg-left-bottom relative  pt-[100px]'>
             <div className='container'>
                 <h3 className= ''>our history</h3>
-                <Image src='/assets/about/AboutBig.png' alt='about_big' width={660} height={600} className='absolute mt-10'/>
+                <Image src='/assets/about/webp/AboutBig70.webp' alt='about_big' width={660} height={600} className='absolute mt-10'/>
                 <div className='flex flex-col items-end gap-y-10'>
                     <h6 className=''>We could not be prouder to be.</h6>
                     <div className= 'text-[20px] leading-[24px] max-w-[780px] flex gap-y-4 flex-col'>
@@ -22,7 +22,7 @@ export const About = () => {
                         </p>
                     </div>
                     <div className='flex items-start w-[980px] justify-between'>
-                        <Image src='/assets/about/AboutSmall.png' alt='about_big' width={500} height={50} className='z-10'/>
+                        <Image src='/assets/about/webp/AboutSmall70.webp' alt='about_big' width={500} height={50} className='z-10'/>
                         <Button variant='outline_green' size='strict' className=''>read the full enroute story</Button>
                     </div>
                 </div>

@@ -36,7 +36,7 @@ export const Header = () => {
                 <div className= 'flex items-center justify-between py-4 border-b-[1px] border-border_white'>
                     <Link href='/'>
                         {/*<Image src='/assets/logo/LogoH.svg' alt='logo_img' width={147} height={38}/>*/}
-                        <Image src='/assets/logo/Logo.png' alt='logo_img' width={147} height={38}/>
+                        <Image src='/assets/logo/webp/Logo70.webp' alt='logo_img' width={147} height={38}/>
                     </Link>
                     <nav className='text-white text-xl flex gap-x-[50px] items-center'>
                         <Link href='/' className='hover:underline hover:decoration-white'>

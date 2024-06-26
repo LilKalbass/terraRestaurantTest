@@ -35,12 +35,11 @@ module.exports = {
         montez: ['var(--font-montez)']
       },
       backgroundImage: {
-        hero: 'url(/assets/hero/HeroBg.jpg)',
-        about: 'url(/assets/about/lines.png)',
-        gallery: 'url(/assets/gallery/GalleryBg.jpg)',
-        booking: 'url(/assets/BookBg.jpg)',
-        sch1: 'url(/assets/schedule/l1.png)',
-        sch2: 'url(/assets/schedule/l2.png)'
+        hero: 'url(/assets/hero/webp/HeroBg70.webp)',
+        about: 'url(/assets/about/webp/AboutBg70.webp)',
+        gallery: 'url(/assets/gallery/webp/GalleryBg70.webp)',
+        booking: 'url(/assets/webp/BookBg70.webp)',
+        schedule: 'url(/assets/schedule/webp/BgSchedule70.webp)'
       },
       boxShadow: {
         primary: '40px 4px 40px 0px rgba(68, 68, 68, 0.25)'

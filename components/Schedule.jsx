@@ -4,11 +4,11 @@ import {FaRegClock} from "react-icons/fa6";
 
 export const Schedule = () => {
     return (
-        <section className='pt-20 pb-16 bg-sch1 bg-contain bg-left-top sm:bg-repeat-round ph:bg-no-repeat' id='menu'>
+        <section className='pt-20 pb-16 bg-schedule bg-contain bg-left-top sm:bg-repeat-round ph:bg-no-repeat' id='menu'>
             <div className='container'>
                 <div className='grid grid-cols-2'>
                     <div className='justify-between flex flex-col pb-12'>
-                        <Image src='/assets/schedule/Sch1.jpg' alt='qwe' width={650} height={500}/>
+                        <Image src='/assets/schedule/webp/Sch170.webp' alt='qwe' width={650} height={500}/>
                         <div className='lowercase '>
                             <h6 className=''>work time</h6>
                             <h3 className='pb-6'>CAFÉ</h3>
@@ -40,7 +40,7 @@ export const Schedule = () => {
                                 </p>
                             </div>
                         </div>
-                        <Image src='/assets/schedule/Sch2.jpg' alt='qwe' width={650} height={500} className='pt-20'/>
+                        <Image src='/assets/schedule/webp/Sch270.webp' alt='qwe' width={650} height={500} className='pt-20'/>
                     </div>
                 </div>
             </div>

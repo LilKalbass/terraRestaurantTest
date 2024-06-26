@@ -10,7 +10,7 @@ export const Footer = () => {
         <footer className='bg-footer pt-20 pb-[72px] ph:py-14'>
             <div className='container'>
                 <div className='flex justify-center xl:hidden sm:pb-10 ph:pb-[26px]'>
-                    <Image src='/assets/logo/LogoF.png' alt='logo_img' width={240} height={62} className=''/>
+                    <Image src='/assets/logo/webp/LogoF70.webp' alt='logo_img' width={240} height={62} className=''/>
                 </div>
                 <div className='flex xl:flex-row justify-between ph:flex-col'>
                     <div className='gap-y-[30px] xl:flex flex-col hidden'>
